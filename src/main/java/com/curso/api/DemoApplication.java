@@ -1,5 +1,6 @@
 package com.curso.api;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,7 +9,13 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("primera app en spring");
+
+		/*Producto producto = new Producto();
+		producto.setDescripcion("lapices");
+		producto.setPrecio(1.12);
+		producto.setStock(23);
+		System.out.println(producto);*/
+
 	}
 
 }
